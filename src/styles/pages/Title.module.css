@@ -1,0 +1,19 @@
+.titleContainer {
+    top: 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.titleContainer a span {
+    padding-bottom: 20px;
+}
+
+.titleContainer a>img {
+    max-height: 150px;
+
+}
