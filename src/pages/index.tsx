@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Commission } from '../components/Commission';
 import { Navbar } from '../components/Navbar';
 import { Title } from '../components/Title';
 
@@ -17,9 +18,11 @@ export default function Home() {
       <main>
         <Title />
         <Navbar />
-        <div className={styles.centerImage}>
+        <div className={styles.midimg}>
           <img src="imagem do meio.jpg" alt="Nine Sibling of Hell" />
         </div>
+        <Commission />
+
       </main>
 
 

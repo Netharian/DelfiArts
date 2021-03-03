@@ -1,0 +1,21 @@
+.commissionContainer {
+    margin-top: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background: #013C7C;
+
+}
+
+.commissionContainer a span {
+    color: white;
+}
+
+.commissionContainer a span:hover {
+    background: #C6034A
+}
+
+.commissionContainer img {
+    width: 100%;
+}

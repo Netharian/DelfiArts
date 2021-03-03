@@ -20,17 +20,7 @@
     font-size: 3rem;
 }
 
-.centerImage {
-    display: flex;
-    flex: 1;
-    margin-top: 15px;
-    height: 36vh;
-    align-items: center;
+.midimg img {
 
-}
-
-.centerImage img {
-    height: 100%;
-    margin: auto;
-
+    width: 100%;
 }
