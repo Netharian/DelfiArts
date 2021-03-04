@@ -1,0 +1,78 @@
+.socialContainer {
+    display: flex;
+    width: 100%;
+    max-height: 100px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+.socialContainer div span {
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Teko', sans-serif;
+
+}
+
+
+.socialContainer div>img {
+    margin-top: 15px;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.patreon {
+    color: #FF3740;
+    transition: transform 200ms ease-in-out;
+}
+
+.patreon:hover,
+.patreon:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.webtoon {
+    color: #00DC64;
+    transition: transform 200ms ease-in-out;
+
+}
+
+.webtoon:hover,
+.webtoon:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.instagram {
+    color: #C6034A;
+    transition: transform 200ms ease-in-out;
+}
+
+.instagram:hover,
+.instagram:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.artstation {
+    color: #013C7C;
+    transition: transform 200ms ease-in-out;
+}
+
+.artstation:hover,
+.artstation:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.8;
+
+}

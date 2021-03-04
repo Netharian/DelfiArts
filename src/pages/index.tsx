@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Commission } from '../components/Commission';
+import { Social } from '../components/Social';
 import { Navbar } from '../components/Navbar';
-import { Title } from '../components/Title';
 
 import styles from '../styles/pages/Home.module.css';
 
@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Title />
         <Navbar />
+        <Social />
         <div className={styles.midimg}>
           <img src="imagem do meio.jpg" alt="Nine Sibling of Hell" />
         </div>
