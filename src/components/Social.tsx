@@ -1,8 +1,8 @@
-import styles from '../styles/pages/Social.module.css';
+import styles from '../styles/components/Social.module.css';
 
 export function Social() {
     return (
-        <header className={styles.socialContainer}>
+        <div className={styles.socialContainer}>
             <a href="https://www.patreon.com/delfiarts/posts" target="_blank" rel="noopener noreferrer">
                 <div className={styles.patreon}>
                     <img src="nana.jpg" alt="patreon" />
@@ -31,6 +31,6 @@ export function Social() {
 
 
 
-        </header>
+        </div>
     );
 }

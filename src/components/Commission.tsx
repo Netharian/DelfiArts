@@ -1,4 +1,4 @@
-import styles from '../styles/pages/Commission.module.css';
+import styles from '../styles/components/Commission.module.css';
 
 export function Commission() {
     return (

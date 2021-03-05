@@ -6,6 +6,8 @@
     text-align: center;
     background: #013C7C;
     transition: background 600ms ease-in-out;
+    margin-bottom: 30px;
+
 }
 
 .commissionContainer a span {
