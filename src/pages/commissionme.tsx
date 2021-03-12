@@ -12,6 +12,8 @@ export default function Commission() {
             <main>
                 <Navbar />
 
+
+
             </main>
         </div>
     );
