@@ -59,6 +59,7 @@ export default function Contact() {
                     </div>
 
                     <button
+                        onSubmit={(e) => e.preventDefault()}
                         type="submit"
                         className="inline-block self-center bg-blue-600 text-white font-bold rounded-lg px-6 py-2 uppercase hover:bg-pink-600">Send</button>
                 </form>

@@ -19,7 +19,7 @@ export default function Home() {
         <Navbar />
         <Social />
         <div className={styles.midimg}>
-          <img src="imagem do meio.jpg" alt="Nine Sibling of Hell" />
+          <a href="/nsoh"><img className="md:w-3/4 mx-auto my-4 h" src="NSOH.gif" alt="Nine Sibling of Hell" /></a>
         </div>
         <Commission />
 

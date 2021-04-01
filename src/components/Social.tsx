@@ -10,10 +10,13 @@ export function Social() {
                 </div>
             </a>
 
-            <div className={styles.webtoon}>
-                <img src="charlie.jpg" alt="webtoon" />
-                <span>WEBTOON</span>
-            </div>
+            <a href="/nsoh">
+                <div className={styles.webtoon}>
+                    <img src="charlie.jpg" alt="webtoon" />
+                    <span>WEBTOON</span>
+                </div>
+            </a>
+
             <a href="https://www.instagram.com/delfi_arts/" target="_blank" rel="noopener noreferrer">
                 <div className={styles.instagram}>
                     <img src="loira.jpg" alt="instagram" />
