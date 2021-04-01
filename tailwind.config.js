@@ -15,5 +15,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    './src/**/*.html',
+    './src/**/*.tsx'
+  ],
 }
