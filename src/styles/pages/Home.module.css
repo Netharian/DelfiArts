@@ -20,7 +20,28 @@
     font-size: 3rem;
 }
 
-.midImg img {
+.mermayImg {
 
-    width: 75%;
+    max-height: 500px;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.mermayImg:hover,
+.mermayImg:focus {
+    transform: scale(1.02);
+}
+
+
+.bannerImg {
+    max-height: 500px;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.bannerImg:hover,
+.bannerImg:focus {
+    transform: scale(1.02);
 }

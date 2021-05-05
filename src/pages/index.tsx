@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Commission } from '../components/Commission';
 import { Social } from '../components/Social';
 import { Navbar } from '../components/Navbar';
+import Link from 'next/link'
 
 import styles from '../styles/pages/Home.module.css';
 
@@ -18,8 +19,15 @@ export default function Home() {
       <main>
         <Navbar />
         <Social />
-        <div className={styles.midimg}>
-          <a href="/nsoh"><img className="md:w-3/4 mx-auto my-4 h" src="NSOH.gif" alt="Nine Sibling of Hell" /></a>
+        <div className="grid md:grid-flow-col gap-8 justify-between my-8">
+
+          <Link href="https://ko-fi.com/s/fad3400687"><a href="https://ko-fi.com/s/fad3400687"><img className={`${styles.mermayImg}`} src="Ariel Mermay 4.png" alt="Mermay 2021" /></a></Link>
+
+
+
+          <Link href="/nsoh"><a href=""><img className={styles.bannerImg} src="BAnner small.png" alt="Banner NSOH Small" /></a></Link>
+
+
         </div>
         <Commission />
 
